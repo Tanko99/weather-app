@@ -4,7 +4,7 @@ const form = document.getElementById('weather-form');
 const cityInput = document.getElementById('cityInput');
 const feedback = document.getElementById('weather-display'); // ❌ FIXED here
 
-const apiKey = '3f8a28d16f38dfc62a9fc07c314a4820';
+const apiKey = '';
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
