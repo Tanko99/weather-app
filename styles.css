@@ -1,0 +1,30 @@
+
+// styling elements
+* {
+    font-family: sans-serif;;
+    font-weight: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+input {
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid, black;
+}
+button {
+    border-radius: 6px;
+    margin: 10px 0;
+    padding:15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333;
+    color: white;
+}
